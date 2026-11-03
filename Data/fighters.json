@@ -1,0 +1,4266 @@
+{
+  "pikachu": {
+    "name": "Pikachu",
+    "type": "electric",
+    "hp": 150,
+    "attack": 55,
+    "defense": 45,
+    "special_attack": 65,
+    "special_defense": 50,
+    "speed": 240,
+    "radius": 18,
+    "scale": 1.05,
+    "color": "ffd55c",
+    "moves": [
+      "thunderbolt",
+      "quick",
+      "electroball",
+      "thunder"
+    ],
+    "ability": "Statische Energie",
+    "description": "Flinker Fernkämpfer. Lade Donner vor und halte Abstand.",
+    "types": [
+      "electric"
+    ]
+  },
+  "glurak": {
+    "name": "Glurak",
+    "type": "fire",
+    "hp": 190,
+    "attack": 75,
+    "defense": 60,
+    "special_attack": 85,
+    "special_defense": 65,
+    "speed": 205,
+    "radius": 25,
+    "scale": 1.4,
+    "color": "ff945e",
+    "moves": [
+      "flame",
+      "fire_spin",
+      "air_slash",
+      "fire_blast"
+    ],
+    "ability": "Glutkern",
+    "description": "Kontrolliert Wege mit Feuer und setzt Gegner unter Druck.",
+    "types": [
+      "fire",
+      "flying"
+    ]
+  },
+  "turtok": {
+    "name": "Turtok",
+    "type": "water",
+    "hp": 220,
+    "attack": 65,
+    "defense": 85,
+    "special_attack": 75,
+    "special_defense": 80,
+    "speed": 175,
+    "radius": 25,
+    "scale": 1.28,
+    "color": "71d1ef",
+    "moves": [
+      "water",
+      "hydro",
+      "shell",
+      "surf"
+    ],
+    "ability": "Panzer",
+    "description": "Standfester Kämpfer mit Schutz und breiten Wasserwellen.",
+    "types": [
+      "water"
+    ]
+  },
+  "gengar": {
+    "name": "Gengar",
+    "type": "ghost",
+    "hp": 155,
+    "attack": 60,
+    "defense": 50,
+    "special_attack": 90,
+    "special_defense": 60,
+    "speed": 230,
+    "radius": 22,
+    "scale": 1.22,
+    "color": "bc9afa",
+    "moves": [
+      "shadowball",
+      "hypnosis",
+      "shadow_dash",
+      "night"
+    ],
+    "ability": "Schattenhülle",
+    "description": "Täuscht mit Schatten, schläfert ein und greift aus der Nähe an.",
+    "types": [
+      "ghost",
+      "poison"
+    ]
+  },
+  "lapras": {
+    "name": "Lapras",
+    "type": "ice",
+    "hp": 240,
+    "attack": 60,
+    "defense": 75,
+    "special_attack": 75,
+    "special_defense": 80,
+    "speed": 160,
+    "radius": 27,
+    "scale": 1.4,
+    "color": "94e6ee",
+    "moves": [
+      "water",
+      "ice",
+      "shell",
+      "blizzard"
+    ],
+    "ability": "Frostschild",
+    "description": "Große Reichweite. Eis verlangsamt Gegner für sichere Treffer.",
+    "types": [
+      "water",
+      "ice"
+    ]
+  },
+  "sichlor": {
+    "name": "Sichlor",
+    "type": "bug",
+    "hp": 165,
+    "attack": 90,
+    "defense": 60,
+    "special_attack": 50,
+    "special_defense": 60,
+    "speed": 265,
+    "radius": 21,
+    "scale": 1.18,
+    "color": "a4db81",
+    "moves": [
+      "slash",
+      "quick",
+      "air_slash",
+      "fury"
+    ],
+    "ability": "Jägerinstinkt",
+    "description": "Schneller Nahkämpfer mit Sicheln und gezielten Vorstößen.",
+    "types": [
+      "bug",
+      "flying"
+    ]
+  },
+  "bisaflor": {
+    "name": "Bisaflor",
+    "type": "grass",
+    "hp": 220,
+    "attack": 70,
+    "defense": 80,
+    "special_attack": 85,
+    "special_defense": 80,
+    "speed": 165,
+    "radius": 27,
+    "scale": 1.35,
+    "color": "6fcf73",
+    "moves": [
+      "razor_leaf",
+      "vine_whip",
+      "poison_powder",
+      "solar_beam"
+    ],
+    "ability": "Überwuchs",
+    "description": "Robuster Pflanzenkämpfer mit Kontrolle und starkem Solarstrahl.",
+    "types": [
+      "grass",
+      "poison"
+    ]
+  },
+  "lucario": {
+    "name": "Lucario",
+    "type": "fighting",
+    "hp": 175,
+    "attack": 88,
+    "defense": 62,
+    "special_attack": 82,
+    "special_defense": 65,
+    "speed": 245,
+    "radius": 21,
+    "scale": 1.12,
+    "color": "65a9d8",
+    "moves": [
+      "aura_sphere",
+      "quick",
+      "metal_claw",
+      "close_combat"
+    ],
+    "ability": "Konzentrator",
+    "description": "Extrem beweglicher Allrounder für Aura-Fernkampf und Nahkampf.",
+    "types": [
+      "fighting",
+      "steel"
+    ]
+  },
+  "relaxo": {
+    "name": "Relaxo",
+    "type": "normal",
+    "hp": 285,
+    "attack": 88,
+    "defense": 75,
+    "special_attack": 55,
+    "special_defense": 80,
+    "speed": 125,
+    "radius": 30,
+    "scale": 1.5,
+    "color": "74a9a8",
+    "moves": [
+      "body_slam",
+      "rest_shield",
+      "rock_wave",
+      "giga_impact"
+    ],
+    "ability": "Dickes Fett",
+    "description": "Sehr zäher Tank mit mächtigen, aber langsamen Angriffen.",
+    "types": [
+      "normal"
+    ]
+  },
+  "arkani": {
+    "name": "Arkani",
+    "type": "fire",
+    "hp": 205,
+    "attack": 88,
+    "defense": 68,
+    "special_attack": 75,
+    "special_defense": 68,
+    "speed": 235,
+    "radius": 25,
+    "scale": 1.28,
+    "color": "f3a05d",
+    "moves": [
+      "flame",
+      "quick",
+      "fire_fang",
+      "extreme_speed"
+    ],
+    "ability": "Bedroher",
+    "description": "Rasanter Feuerkämpfer mit Biss und Turbotempo.",
+    "types": [
+      "fire"
+    ]
+  },
+  "dragoran": {
+    "name": "Dragoran",
+    "type": "dragon",
+    "hp": 230,
+    "attack": 90,
+    "defense": 72,
+    "special_attack": 78,
+    "special_defense": 72,
+    "speed": 200,
+    "radius": 26,
+    "scale": 1.35,
+    "color": "e6a759",
+    "moves": [
+      "dragon_breath",
+      "air_slash",
+      "thunderbolt",
+      "dragon_rush"
+    ],
+    "ability": "Multischuppe",
+    "description": "Kraftvoller Drache mit vielseitigem Fernkampf und Ansturm.",
+    "types": [
+      "dragon",
+      "flying"
+    ]
+  },
+  "rayquaza": {
+    "name": "Rayquaza",
+    "type": "dragon",
+    "hp": 320,
+    "attack": 108,
+    "defense": 86,
+    "special_attack": 112,
+    "special_defense": 90,
+    "speed": 235,
+    "radius": 30,
+    "scale": 1.5,
+    "color": "63d7a2",
+    "moves": [
+      "dragon_breath",
+      "air_slash",
+      "thunderbolt",
+      "dragon_rush"
+    ],
+    "ability": "Himmelsreiter",
+    "description": "Legendärer Himmelsdrache, der die Resonanzstürme beherrscht.",
+    "types": [
+      "dragon",
+      "flying"
+    ]
+  },
+  "kyogre": {
+    "name": "Kyogre",
+    "type": "water",
+    "hp": 340,
+    "attack": 92,
+    "defense": 94,
+    "special_attack": 125,
+    "special_defense": 108,
+    "speed": 190,
+    "radius": 31,
+    "scale": 1.5,
+    "color": "4f9edb",
+    "moves": [
+      "water",
+      "ice",
+      "hydro",
+      "thunderbolt"
+    ],
+    "ability": "Urmeer",
+    "description": "Legendäres Meereswesen, das ganze Küsten überfluten kann.",
+    "types": [
+      "water"
+    ]
+  },
+  "kyurem": {
+    "name": "Kyurem",
+    "type": "ice",
+    "hp": 335,
+    "attack": 112,
+    "defense": 92,
+    "special_attack": 116,
+    "special_defense": 94,
+    "speed": 185,
+    "radius": 31,
+    "scale": 1.5,
+    "color": "9fd4e4",
+    "moves": [
+      "ice",
+      "dragon_breath",
+      "blizzard",
+      "dragon_rush"
+    ],
+    "ability": "Turboblaze",
+    "description": "Legendärer Eisdrachenkern mit überwältigender Kälte.",
+    "types": [
+      "ice",
+      "dragon"
+    ]
+  },
+  "zekrom": {
+    "name": "Zekrom",
+    "type": "electric",
+    "hp": 345,
+    "attack": 128,
+    "defense": 105,
+    "special_attack": 105,
+    "special_defense": 92,
+    "speed": 180,
+    "radius": 31,
+    "scale": 1.5,
+    "color": "536e9e",
+    "moves": [
+      "thunderbolt",
+      "thunder",
+      "dragon_rush",
+      "night"
+    ],
+    "ability": "Teravolt",
+    "description": "Legendärer Donnerdrache, dessen Energie die Arena spaltet.",
+    "types": [
+      "electric",
+      "dragon"
+    ]
+  },
+  "reshiram": {
+    "name": "Reshiram",
+    "type": "fire",
+    "hp": 345,
+    "attack": 105,
+    "defense": 94,
+    "special_attack": 128,
+    "special_defense": 100,
+    "speed": 185,
+    "radius": 31,
+    "scale": 1.5,
+    "color": "e8e7dc",
+    "moves": [
+      "flame",
+      "dragon_breath",
+      "fire_blast",
+      "air_slash"
+    ],
+    "ability": "Turboblaze",
+    "description": "Legendärer Feuerdrache mit einer Sonne im Herzen.",
+    "types": [
+      "fire",
+      "dragon"
+    ]
+  },
+  "psiana": {
+    "name": "Psiana",
+    "type": "psychic",
+    "hp": 160,
+    "attack": 55,
+    "defense": 50,
+    "special_attack": 95,
+    "special_defense": 80,
+    "speed": 250,
+    "radius": 20,
+    "scale": 1.1,
+    "color": "c79eea",
+    "moves": [
+      "psybeam",
+      "quick",
+      "psychic_wave",
+      "future_sight"
+    ],
+    "ability": "Magiespiegel",
+    "description": "Schnelle Spezialistin mit präzisen Psycho-Attacken.",
+    "types": [
+      "psychic"
+    ]
+  },
+  "nachtara": {
+    "name": "Nachtara",
+    "type": "dark",
+    "hp": 215,
+    "attack": 62,
+    "defense": 90,
+    "special_attack": 60,
+    "special_defense": 90,
+    "speed": 190,
+    "radius": 21,
+    "scale": 1.1,
+    "color": "77829b",
+    "moves": [
+      "dark_pulse",
+      "quick",
+      "moonlight",
+      "night"
+    ],
+    "ability": "Synchro",
+    "description": "Defensiver Nachtkämpfer mit Heilung und dunklen Pulsen.",
+    "types": [
+      "dark"
+    ]
+  },
+  "knakrack": {
+    "name": "Knakrack",
+    "type": "dragon",
+    "hp": 215,
+    "attack": 95,
+    "defense": 75,
+    "special_attack": 55,
+    "special_defense": 65,
+    "speed": 245,
+    "radius": 25,
+    "scale": 1.3,
+    "color": "6f77b8",
+    "moves": [
+      "dragon_claw",
+      "sand_shot",
+      "earth_burst",
+      "dragon_rush"
+    ],
+    "ability": "Sandschleier",
+    "description": "Schneller Boden-Drache mit enormem Nahkampfdruck.",
+    "types": [
+      "dragon",
+      "ground"
+    ]
+  },
+  "guardevoir": {
+    "name": "Guardevoir",
+    "type": "psychic",
+    "hp": 175,
+    "attack": 55,
+    "defense": 58,
+    "special_attack": 95,
+    "special_defense": 82,
+    "speed": 205,
+    "radius": 22,
+    "scale": 1.2,
+    "color": "a8e5c2",
+    "moves": [
+      "psybeam",
+      "fairy_orb",
+      "psychic_wave",
+      "moon_blast"
+    ],
+    "ability": "Fährte",
+    "description": "Elegante Fernkämpferin mit Psycho- und Feenkräften.",
+    "types": [
+      "psychic",
+      "fairy"
+    ]
+  },
+  "greninja": {
+    "name": "Quajutsu",
+    "type": "water",
+    "hp": 165,
+    "attack": 78,
+    "defense": 58,
+    "special_attack": 88,
+    "special_defense": 62,
+    "speed": 275,
+    "radius": 20,
+    "scale": 0.9,
+    "color": "4f9bd7",
+    "moves": [
+      "water",
+      "water_shuriken",
+      "dark_pulse",
+      "surf"
+    ],
+    "ability": "Wandlungskunst",
+    "description": "Blitzschneller Ninja mit Wasser-Shuriken und Ausweichstärke.",
+    "types": [
+      "water",
+      "dark"
+    ]
+  },
+  "katapuldra": {
+    "name": "Katapuldra",
+    "type": "dragon",
+    "hp": 175,
+    "attack": 82,
+    "defense": 58,
+    "special_attack": 86,
+    "special_defense": 62,
+    "speed": 285,
+    "radius": 20,
+    "scale": 1.1,
+    "color": "8b91dc",
+    "moves": [
+      "dragon_breath",
+      "shadowball",
+      "quick",
+      "dragon_rush"
+    ],
+    "ability": "Tastfluch",
+    "description": "Extrem schneller Geist-Drache mit geradlinigen Anstürmen.",
+    "types": [
+      "dragon",
+      "ghost"
+    ]
+  },
+  "despotar": {
+    "name": "Despotar",
+    "type": "rock",
+    "hp": 255,
+    "attack": 100,
+    "defense": 92,
+    "special_attack": 70,
+    "special_defense": 78,
+    "speed": 145,
+    "radius": 29,
+    "scale": 1.42,
+    "color": "b9a36b",
+    "moves": [
+      "rock_wave",
+      "earth_burst",
+      "dark_pulse",
+      "giga_impact"
+    ],
+    "ability": "Sandsturm",
+    "description": "Schwerer Gesteinskämpfer, der Räume mit Sand und Druck kontrolliert.",
+    "types": [
+      "rock",
+      "dark"
+    ]
+  },
+  "ditto": {
+    "name": "Ditto",
+    "type": "normal",
+    "hp": 165,
+    "attack": 65,
+    "defense": 65,
+    "special_attack": 65,
+    "special_defense": 65,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "b98bd1",
+    "moves": [
+      "quick",
+      "body_slam",
+      "rest_shield",
+      "giga_impact"
+    ],
+    "ability": "Flexibilität",
+    "description": "Unberechenbarer Formwandler mit ausgewogenem Kampfprofil.",
+    "types": [
+      "normal"
+    ]
+  },
+  "accelgor": {
+    "name": "accelgor",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "admurai": {
+    "name": "admurai",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "alomomola": {
+    "name": "alomomola",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "amoonguss": {
+    "name": "amoonguss",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "apoquallyp": {
+    "name": "apoquallyp",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "archen": {
+    "name": "archen",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "archeops": {
+    "name": "archeops",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "audino": {
+    "name": "audino",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "axew": {
+    "name": "axew",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "basculin": {
+    "name": "basculin",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "beartic": {
+    "name": "beartic",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "beheeyem": {
+    "name": "beheeyem",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "bisharp": {
+    "name": "bisharp",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "blitzle": {
+    "name": "blitzle",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "boldore": {
+    "name": "boldore",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "bouffalant": {
+    "name": "bouffalant",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "branawarz": {
+    "name": "branawarz",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "braviary": {
+    "name": "braviary",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "carracosta": {
+    "name": "carracosta",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "chandelure": {
+    "name": "chandelure",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "cinccino": {
+    "name": "cinccino",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "conkeldurr": {
+    "name": "conkeldurr",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "cottonee": {
+    "name": "cottonee",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "crustle": {
+    "name": "crustle",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "cryogonal": {
+    "name": "cryogonal",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "cubchoo": {
+    "name": "cubchoo",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "darmanitan": {
+    "name": "darmanitan",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "darumaka": {
+    "name": "darumaka",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "deerling": {
+    "name": "deerling",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "deino": {
+    "name": "deino",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "dewott": {
+    "name": "dewott",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "drilbur": {
+    "name": "drilbur",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "druddigon": {
+    "name": "druddigon",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "ducklett": {
+    "name": "ducklett",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "duosion": {
+    "name": "duosion",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "durant": {
+    "name": "durant",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "dwebble": {
+    "name": "dwebble",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "echnatoll": {
+    "name": "echnatoll",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "eelektrik": {
+    "name": "eelektrik",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "eelektross": {
+    "name": "eelektross",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "elgyem": {
+    "name": "elgyem",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "emboar": {
+    "name": "emboar",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "emolga": {
+    "name": "emolga",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "escavalier": {
+    "name": "escavalier",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "excadrill": {
+    "name": "excadrill",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "ferroseed": {
+    "name": "ferroseed",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "ferrothorn": {
+    "name": "ferrothorn",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "flunschlik": {
+    "name": "flunschlik",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "foongus": {
+    "name": "foongus",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "fraxure": {
+    "name": "fraxure",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "frillish": {
+    "name": "frillish",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "galvantula": {
+    "name": "galvantula",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "garbodor": {
+    "name": "garbodor",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "genesect": {
+    "name": "genesect",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "gigalith": {
+    "name": "gigalith",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "golett": {
+    "name": "golett",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "golurk": {
+    "name": "golurk",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "gothita": {
+    "name": "gothita",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "gothitelle": {
+    "name": "gothitelle",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "gothorita": {
+    "name": "gothorita",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "grypheldis": {
+    "name": "grypheldis",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "gurdurr": {
+    "name": "gurdurr",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "haxorus": {
+    "name": "haxorus",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "heatmor": {
+    "name": "heatmor",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "herdier": {
+    "name": "herdier",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "joltik": {
+    "name": "joltik",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "karrablast": {
+    "name": "karrablast",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "keldeo": {
+    "name": "keldeo",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "klang": {
+    "name": "klang",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "klink": {
+    "name": "klink",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "klinklang": {
+    "name": "klinklang",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "kobalium": {
+    "name": "kobalium",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "krokorok": {
+    "name": "krokorok",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "krookodile": {
+    "name": "krookodile",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "lampent": {
+    "name": "lampent",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "landorus": {
+    "name": "landorus",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "larvesta": {
+    "name": "larvesta",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "leavanny": {
+    "name": "leavanny",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "liepard": {
+    "name": "liepard",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "lilligant": {
+    "name": "lilligant",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "lillipup": {
+    "name": "lillipup",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "litwick": {
+    "name": "litwick",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "maractus": {
+    "name": "maractus",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "meloetta": {
+    "name": "meloetta",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "mienfoo": {
+    "name": "mienfoo",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "mienshao": {
+    "name": "mienshao",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "minccino": {
+    "name": "minccino",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "munna": {
+    "name": "munna",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "musharna": {
+    "name": "musharna",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "oshawott": {
+    "name": "oshawott",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "palpitoad": {
+    "name": "palpitoad",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "panpour": {
+    "name": "panpour",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "pansage": {
+    "name": "pansage",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "pansear": {
+    "name": "pansear",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "patrat": {
+    "name": "patrat",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "pawniard": {
+    "name": "pawniard",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "petilil": {
+    "name": "petilil",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "pidove": {
+    "name": "pidove",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "pignite": {
+    "name": "pignite",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "purrloin": {
+    "name": "purrloin",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "reuniclus": {
+    "name": "reuniclus",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "roggenrola": {
+    "name": "roggenrola",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "rufflet": {
+    "name": "rufflet",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "sandile": {
+    "name": "sandile",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "sawk": {
+    "name": "sawk",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "sawsbuck": {
+    "name": "sawsbuck",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "scolipede": {
+    "name": "scolipede",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "scrafty": {
+    "name": "scrafty",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "scraggy": {
+    "name": "scraggy",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "serperior": {
+    "name": "serperior",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "servine": {
+    "name": "servine",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "sewaddle": {
+    "name": "sewaddle",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "shelmet": {
+    "name": "shelmet",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "sigilyph": {
+    "name": "sigilyph",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "simipour": {
+    "name": "simipour",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "simisage": {
+    "name": "simisage",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "simisear": {
+    "name": "simisear",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "snivy": {
+    "name": "snivy",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "solosis": {
+    "name": "solosis",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "stoutland": {
+    "name": "stoutland",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "swadloon": {
+    "name": "swadloon",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "swanna": {
+    "name": "swanna",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "swoobat": {
+    "name": "swoobat",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "tepig": {
+    "name": "tepig",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "terrakion": {
+    "name": "terrakion",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "throh": {
+    "name": "throh",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "thundurus": {
+    "name": "thundurus",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "timburr": {
+    "name": "timburr",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "tirtouga": {
+    "name": "tirtouga",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "tornadus": {
+    "name": "tornadus",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "tranquill": {
+    "name": "tranquill",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "trikephalo": {
+    "name": "trikephalo",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "trubbish": {
+    "name": "trubbish",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "tympole": {
+    "name": "tympole",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "tynamo": {
+    "name": "tynamo",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "unfezant": {
+    "name": "unfezant",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "vanillish": {
+    "name": "vanillish",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "vanillite": {
+    "name": "vanillite",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "vanilluxe": {
+    "name": "vanilluxe",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "venipede": {
+    "name": "venipede",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "victini": {
+    "name": "victini",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "viridium": {
+    "name": "viridium",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "volcarona": {
+    "name": "volcarona",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "vullaby": {
+    "name": "vullaby",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "watchog": {
+    "name": "watchog",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "whimsicott": {
+    "name": "whimsicott",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "whirlipede": {
+    "name": "whirlipede",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "woobat": {
+    "name": "woobat",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "yamask": {
+    "name": "yamask",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "zebstrika": {
+    "name": "zebstrika",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "zoroark": {
+    "name": "zoroark",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "zorua": {
+    "name": "zorua",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  },
+  "zweilous": {
+    "name": "zweilous",
+    "type": "normal",
+    "hp": 170,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 170,
+    "radius": 20,
+    "scale": 1.0,
+    "color": "9fb4c7",
+    "moves": [
+      "quick",
+      "water",
+      "flame",
+      "quick"
+    ],
+    "ability": "Resonanz",
+    "description": "Ein Gen-5-Kämpfer mit eigener Resonanz.",
+    "types": [
+      "normal"
+    ]
+  }
+}
