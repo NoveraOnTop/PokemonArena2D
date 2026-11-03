@@ -13,18 +13,13 @@ permissions:
 jobs:
   export:
     runs-on: ubuntu-latest
+    container: barichello/godot-ci:4.5.1
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Set up Godot 4.5.1
-        uses: chickensoft-games/setup-godot@v2
-        with:
-          version: 4.5.1
-          use-dotnet: false
-          include-templates: true
       - name: Export Web build
         shell: bash
         run: |
