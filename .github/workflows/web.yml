@@ -25,7 +25,8 @@ jobs:
         run: |
           set -euxo pipefail
           mkdir -p build/Web
-            godot --headless --path . --export-release Web build/Web/index.html
+            godot --headless --path . --editor --quit
+            godot --headless --verbose --path . --export-debug Web build/Web/index.html
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
