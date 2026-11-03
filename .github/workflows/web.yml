@@ -19,16 +19,22 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Export Godot Web build
-        id: export
-        uses: firebelley/godot-export@v7.0.0
-        with:
-          godot_executable_download_url: https://github.com/godotengine/godot-builds/releases/download/4.5.1-stable/Godot_v4.5.1-stable_linux.x86_64.zip
-          godot_export_templates_download_url: https://github.com/godotengine/godot-builds/releases/download/4.5.1-stable/Godot_v4.5.1-stable_export_templates.tpz
-          relative_project_path: ./
-          archive_output: true
-      - name: Prepare index file
-        run: cp build/Web/*.html build/Web/index.html
+      - name: Install Godot and Web templates
+        shell: bash
+        run: |
+          set -euxo pipefail
+          curl -L --fail -o godot.zip https://github.com/godotengine/godot-builds/releases/download/4.5.1-stable/Godot_v4.5.1-stable_linux.x86_64.zip
+          curl -L --fail -o templates.tpz https://github.com/godotengine/godot-builds/releases/download/4.5.1-stable/Godot_v4.5.1-stable_export_templates.tpz
+          unzip -q godot.zip -d godot_bin
+          mkdir -p "$HOME/.local/share/godot/export_templates/4.5.1.stable"
+          unzip -q templates.tpz -d "$HOME/.local/share/godot/export_templates/4.5.1.stable"
+          find "$HOME/.local/share/godot/export_templates/4.5.1.stable" -mindepth 1 -maxdepth 1 -type d -exec sh -c 'mv "$1"/* "$2"/; rmdir "$1"' _ {} "$HOME/.local/share/godot/export_templates/4.5.1.stable" \;
+      - name: Export Web build
+        shell: bash
+        run: |
+          set -euxo pipefail
+          mkdir -p build/Web
+          godot_bin/Godot_v4.5.1-stable_linux.x86_64 --headless --path . --export-release Web build/Web/index.html
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
