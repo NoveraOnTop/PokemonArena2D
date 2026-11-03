@@ -24,6 +24,8 @@ jobs:
         shell: bash
         run: |
           set -euxo pipefail
+            mkdir -p "$HOME/.local/share/godot/export_templates/4.5.1.stable"
+            for f in $(find / -name web_nothreads_debug.zip -o -name web_nothreads_release.zip 2>/dev/null); do cp -f "$f" "$HOME/.local/share/godot/export_templates/4.5.1.stable/"; done
           mkdir -p build/Web
             godot --headless --path . --editor --quit
             godot --headless --verbose --path . --export-debug Web build/Web/index.html
