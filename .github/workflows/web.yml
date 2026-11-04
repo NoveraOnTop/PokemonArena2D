@@ -25,7 +25,7 @@ jobs:
         run: |
           set -euxo pipefail
             mkdir -p "$HOME/.local/share/godot/export_templates/4.5.1.stable"
-            curl -L --fail -o /tmp/godot_templates.tpz https://github.com/godotengine/godot-builds/releases/download/4.5.1-stable/Godot_v4.5.1-stable_export_templates.tpz
+            wget -q --show-progress -O /tmp/godot_templates.tpz https://github.com/godotengine/godot-builds/releases/download/4.5.1-stable/Godot_v4.5.1-stable_export_templates.tpz
             mkdir -p /tmp/godot_templates
             unzip -q /tmp/godot_templates.tpz -d /tmp/godot_templates
             cp -f /tmp/godot_templates/templates/web_nothreads_debug.zip "$HOME/.local/share/godot/export_templates/4.5.1.stable/"
