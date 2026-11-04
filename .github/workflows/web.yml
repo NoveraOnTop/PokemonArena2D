@@ -30,6 +30,9 @@ jobs:
             unzip -q /tmp/godot_templates.tpz -d /tmp/godot_templates
             cp -f /tmp/godot_templates/templates/web_nothreads_debug.zip "$HOME/.local/share/godot/export_templates/4.5.1.stable/"
             cp -f /tmp/godot_templates/templates/web_nothreads_release.zip "$HOME/.local/share/godot/export_templates/4.5.1.stable/"
+            mkdir -p "$HOME/.config/godot/editor_data/export_templates/4.5.1.stable"
+            cp -f /tmp/godot_templates/templates/web_nothreads_debug.zip "$HOME/.config/godot/editor_data/export_templates/4.5.1.stable/"
+            cp -f /tmp/godot_templates/templates/web_nothreads_release.zip "$HOME/.config/godot/editor_data/export_templates/4.5.1.stable/"
           mkdir -p build/Web
             godot --headless --path . --editor --quit
             godot --headless --verbose --path . --export-debug Web build/Web/index.html
