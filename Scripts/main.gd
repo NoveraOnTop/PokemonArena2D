@@ -133,6 +133,14 @@ func _ready() -> void:
 			boss_data["attack"] = int(boss_data.get("attack",65)) + 25
 			boss_data["color"] = "d8a7e8"
 			roster[boss_id] = boss_data
+	# Neue Sprite-Pokémon erhalten sichere Basisdaten, falls ältere Datendateien geladen werden.
+	var new_template: Dictionary = roster.get("pikachu", {})
+	for new_id in ["bisasam","glumanda","schiggy","tauboss","rattikarl","arbok","raichu","nidoqueen","nidoking","vulnona","machomei","geowaz","starmie","garados","aquana","blitza","flamara","mewtu","hooh","lugia"]:
+		if not roster.has(new_id) and not new_template.is_empty():
+			var new_data: Dictionary = new_template.duplicate(true)
+			new_data["name"] = new_id.capitalize()
+			new_data["description"] = "Ein neuer Kämpfer für die Arena."
+			roster[new_id] = new_data
 	moves = read_json("moves")
 	for move_id in moves:
 		moves[move_id]["id"] = str(move_id)
