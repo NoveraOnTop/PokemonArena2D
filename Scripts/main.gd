@@ -1110,10 +1110,12 @@ func arena_modifier(fighter, stat: String) -> float:
 
 func add_touch_controls() -> void:
 	if not DisplayServer.is_touchscreen_available(): return
-	var hint:=label_at("◯ BEWEGEN",Vector2(58,548),13,Color(0.75,0.9,1.0,0.65))
+	var hint:=label_at("◯ HALTEN: BEWEGEN",Vector2(42,548),13,Color(0.75,0.9,1.0,0.78))
 	hint.mouse_filter=Control.MOUSE_FILTER_IGNORE
-	var attack_hint:=label_at("WISCHEN + LOSLASSEN: ANGRIFF",Vector2(835,548),12,Color(1.0,0.85,0.55,0.72))
+	var attack_hint:=label_at("WISCHEN + LOSLASSEN: ANGRIFF",Vector2(835,548),12,Color(1.0,0.85,0.55,0.78))
 	attack_hint.mouse_filter=Control.MOUSE_FILTER_IGNORE
+	var action_hint:=label_at("UNTEN: ATTACKEN · AUSWEICHEN",Vector2(480,694),12,Color(0.82,0.9,1.0,0.68))
+	action_hint.mouse_filter=Control.MOUSE_FILTER_IGNORE
 
 func mark_terrain(point: Vector2, element: String, mark_size: float) -> void:
 	if not is_instance_valid(world): return
