@@ -26,8 +26,8 @@ func run_checks() -> void:
 	root.add_child(game)
 	await process_frame
 	check(game.screen=="menu","Menu loads")
-	check(game.roster.size()==24,"Twenty-four selectable fighters")
-	check(game.roster.has("katapuldra") and game.roster.has("despotar") and game.roster.has("ditto"),"Katapuldra, Despotar and Ditto are selectable")
+	check(game.roster.size()==36,"Thirty-six selectable fighters")
+	check(game.roster.has("bisasam") and game.roster.has("garados") and game.roster.has("mewtu"),"New starter, water and legendary fighters are selectable")
 	check(game.moves.size()>=46,"Expanded move set loaded")
 	var rival_sample: Array = game.random_rival_team()
 	var unique_rivals := {}
