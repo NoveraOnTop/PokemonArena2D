@@ -1233,6 +1233,11 @@ func prepare_sounds() -> void:
 	prepare_music()
 
 func prepare_music() -> void:
+	# Die prozedural erzeugten Loop-Tracks sind im Browser unverhältnismäßig teuer:
+	# fast 800.000 Sample-Berechnungen blockieren den Web-Hauptthread beim Start.
+	# Der Webexport startet deshalb ohne Musik; kurze Kampf-SFX bleiben aktiv.
+	if OS.has_feature("web"):
+		return
 	music_player=AudioStreamPlayer.new()
 	add_child(music_player)
 	var roots := {"volcano":110.0,"meadow":146.8,"coast":130.8,"crystal":164.8,"ruins":98.0,"storm":123.5,"haunted":82.4,"jungle":138.6,"factory":185.0}
