@@ -13,6 +13,9 @@ permissions:
 jobs:
   export:
     runs-on: ubuntu-latest
+    concurrency:
+      group: pokemon-arena-web-export
+      cancel-in-progress: true
     container: barichello/godot-ci:4.5.1
     environment:
       name: github-pages
