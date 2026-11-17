@@ -173,10 +173,13 @@ func _ready() -> void:
 	if not data_errors.is_empty():
 		show_data_error()
 		return
-	for id in CREATURES:
-		for direction in ["front","front_right","right","back_right","back","back_left","left","front_left"]:
-			for frame in range(4):
-				Art.get_texture(id,frame,direction)
+	# Im Web nicht hunderte Texturen synchron vorladen: auf Mobilgeräten kann das
+	# den ersten Frame minutenlang blockieren. Art lädt bei der ersten Verwendung.
+	if not OS.has_feature("web"):
+		for id in CREATURES:
+			for direction in ["front","front_right","right","back_right","back","back_left","left","front_left"]:
+				for frame in range(4):
+					Art.get_texture(id,frame,direction)
 	show_menu()
 
 func show_data_error() -> void:
@@ -1202,6 +1205,8 @@ func setting_number(config: ConfigFile, section: String, key: String, fallback: 
 	return fallback
 
 func prepare_sounds() -> void:
+	if OS.has_feature("web"):
+		return
 	var sound_rng := RandomNumberGenerator.new()
 	sound_rng.seed=54879
 	audio_player = AudioStreamPlayer.new()
