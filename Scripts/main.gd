@@ -146,10 +146,16 @@ func _ready() -> void:
 		moves[move_id]["id"] = str(move_id)
 	types = read_json("types")
 	data_errors=DataValidator.validate(roster,moves,types,CREATURES)
-	font = SystemFont.new()
-	font.font_names = PackedStringArray(["Bahnschrift","Arial"])
-	mono = SystemFont.new()
-	mono.font_names = PackedStringArray(["Consolas","Courier New"])
+	if OS.has_feature("web"):
+		# Browser builds haben keinen garantiert verfügbaren SystemFont.
+		# Die Godot-Fallback-Schrift verhindert einen Abbruch vor dem ersten Menüframe.
+		font = ThemeDB.fallback_font
+		mono = ThemeDB.fallback_font
+	else:
+		font = SystemFont.new()
+		font.font_names = PackedStringArray(["Bahnschrift","Arial"])
+		mono = SystemFont.new()
+		mono.font_names = PackedStringArray(["Consolas","Courier New"])
 	load_settings()
 	configure_input()
 	prepare_sounds()
